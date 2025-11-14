@@ -1,10 +1,13 @@
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.Flamand;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
-public class IntroTeleOP extends LinearOpMode {
+/* Clasa asta are scopul de a misca bratu.... */
 
+
+public class IntroTeleOP extends LinearOpMode {
+//declarari motooare
     DcMotor dcMotor;
 
 
