@@ -11,6 +11,8 @@ public class ClawHardware {
     public Servo clawServo1;
     public Servo clawServo2;
 
+    public Servo clawAngleServo;
+
 
     public ClawHardware(HardwareMap hardwareMap){
 
@@ -18,6 +20,7 @@ public class ClawHardware {
 
         clawServo2 = hardwareMap.get(Servo.class, "cl2");
 
+        clawAngleServo = hardwareMap.get(Servo.class, "cla");
     }
 
 }

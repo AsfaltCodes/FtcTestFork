@@ -35,5 +35,10 @@ public class Claw {
 
     }
 
+    public void ClawAngle(double angle) {
+
+        clawHardware.clawAngleServo.setPosition(angle);
+
+    }
 
 }
